@@ -35,7 +35,7 @@ jobs:
 
     - name: Package Lambda Function
       run: |
-        cd lambda-cicd
+        cd lambda_function
         python3.11 -m venv venv
         source venv/bin/activate
         mkdir package
