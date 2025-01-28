@@ -65,7 +65,7 @@ jobs:
           aws lambda create-function \
             --function-name $FUNCTION_NAME \
             --runtime python3.11 \
-            --role arn:arn:aws:iam::116981788251:role/lambda-cicd \
+            --role arn:aws:iam::116981788251:role/lambda-cicd \
             --handler app.lambda_handler \
             --timeout 300 \
             --zip-file fileb://lambda.zip \
